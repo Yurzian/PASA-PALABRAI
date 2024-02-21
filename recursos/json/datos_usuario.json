@@ -1,0 +1,19 @@
+{
+    "usuarios": [
+        {
+            "Nombre": "Daniel",
+            "Partidas jugadas": 2,
+            "Aciertos": 6
+        },
+        {
+            "Nombre": "Jose",
+            "Partidas jugadas": 1,
+            "Aciertos": 0
+        },
+        {
+            "Nombre": "Pedro",
+            "Partidas jugadas": 1,
+            "Aciertos": 2
+        }
+    ]
+}
