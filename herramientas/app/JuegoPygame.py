@@ -422,6 +422,8 @@ class JuegoPygame:
                             seguir_audio = self.reproducir_audio("No tengo más definiciones")
                     # Si se ha hecho click en el botón del micrófono
                     elif boton_microfono.collidepoint(event.pos):
+                        pygame.draw.rect(self.pantalla, (57, 180, 250), boton_microfono)
+                        pygame.display.flip()  # Actualiza la pantalla
                         pygame.mixer.stop()
                         # Utilizo el reconocimiento de voz
                         voz = self.reconocerVoz.reconocer_voz()
